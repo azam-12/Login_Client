@@ -1,0 +1,90 @@
+*{
+    font-family: 'Istok Web', sans-serif;
+  }
+
+.registerRightWrapper{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.registerTitleContainer{
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerRightTitle{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.registerRightSubTitle{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.checkboxContainer{
+    /* margin-top: 20px; */
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.checkboxText{
+    font-size: 14px;
+}
+
+
+
+.registerBtn{
+    /* margin-top: 30px; */
+    margin-top: 10px;
+    width: 350px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #08C18A;
+    cursor: pointer;
+    border: none;
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* xs max-width: 475px */
+@media (max-width: 475px) {
+
+    .registerRightWrapper{
+        gap: 10px;
+    }
+  
+}
+  
+  /* xs  max-width: 475px ends*/

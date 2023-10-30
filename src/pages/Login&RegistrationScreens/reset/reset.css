@@ -1,0 +1,64 @@
+* {
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+.successMsg {
+    font-size: 12px;
+    color:green;
+}
+
+.resetImg {
+    width: 100%;
+    height: 60%;
+}
+
+.resetWidgets{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    /* max-width: 1536px;
+    as per calculations take 83% */
+    /* max-width: 83%; */
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  
+/* xs max-width: 475px */
+@media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  
+    .forgotLeftContainer {
+      display: none;
+    }
+  
+}
+  
+  /* xs  max-width: 475px ends*/

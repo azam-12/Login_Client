@@ -1,0 +1,169 @@
+* {
+  font-family: 'Istok Web', sans-serif;
+}
+
+
+.navbar {
+  /* background-color: aqua; */
+  display: flex;
+  width: 100%;
+  height: 160px;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+
+.navbarWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  /* margin: 40px 80px 40px 80px; */
+  margin: 3% 6% 3% 6%;
+  /* border: 1px solid red; */
+}
+
+.navbarFirstWrapper{
+  width: 100%;
+  display: flex;
+  justify-content:space-between ;
+  /* border: 1px solid green; */
+}
+
+.navbarLogoContainer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbarDashboardIcon{
+  font-size: 25px !important;
+}
+
+.navbarLogo {
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+.navbarBtnContainer{
+  display: flex;
+  gap: 40px;
+}
+
+.navbarBtn {
+  width: 120px;
+  height: 35px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #08C18A;
+}
+
+.bgWhite{
+  background-color: white;
+  color: #08C18A;
+}
+
+.bgGreen{
+  background-color: #08C18A;
+  color: white;
+}
+
+
+.navbarSecondWrapper{
+  margin: 0px 5px;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+}
+
+.navbarMenuIcon{
+  font-size: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+  /* sizes */
+
+  --btn-hg: 1.5rem;
+  --size-xs: 0.75rem;
+  --size-base: 1rem;
+  --size-2xl: 1.5rem;
+}
+
+
+
+.container {
+  /* max-width: 1536px;
+  as per calculations take 83% */
+  /* max-width: 83%; */
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/* xs max-width: 475px font = 12px, btn = 25px*/
+@media (max-width: 475px) {
+  .container {
+      width: 100%;
+  }
+
+  .navbar {
+    height: 100px;
+  }
+
+  .navbarWrapper {
+    gap: 5px;
+  }
+
+  .navbarDashboardIcon{
+    font-size: var(--size-base) !important;
+  }
+  
+  .navbarLogo {
+    font-size: var(--size-base)
+  }
+
+  .navbarBtnContainer{
+    gap: 20px;
+  }
+
+  .navbarBtn {
+    width: 60px;
+    height: var(--btn-hg);
+    font-size: var(--size-xs);
+    border-radius: 3px;
+  }
+
+  .navbarMenuIcon{
+    font-size: var(--size-2xl) !important;
+  }
+
+}
+
+/* xs  max-width: 475px ends*/
+
+
+
+
+
+

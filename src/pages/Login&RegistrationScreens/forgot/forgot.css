@@ -1,0 +1,178 @@
+* {
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+.forgotContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f7f2;
+}
+
+.forgotWrapper {
+    display: flex;
+    width: 100%;
+    /* margin: 80px 300px 80px 300px; */
+    margin: 6% 20% 6% 20%;
+    gap: 50px;
+    /* border: 1px solid blue; */
+}
+
+.forgotLeftContainer {
+    display: flex;
+    flex: 1.2;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.forgotRightContainer {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    /* background-color: bisque; */
+}
+
+.forgotImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.forgotRightWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* background-color: white; */
+}
+
+.forgotTitle {
+    margin-top: 70px;
+    font-size: 28px;
+}
+
+.forgotSpanText {
+    font-size: 14px;
+}
+
+.bottomWidgets{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    /* border: 1px solid green;
+    background-color: antiquewhite; */
+}
+
+
+.forgotInputDiv {
+    display: flex;
+    align-items: center;
+    /* width: 350px; */
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.inputDivWrapper{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forgotBtn{
+    /* margin-top: 40px; */
+    
+    /* width: 350px; */
+    width: 100%;
+
+    height: 35px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #08C18A;
+    cursor: pointer;
+    border: none;
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    /* max-width: 1536px;
+    as per calculations take 83% */
+    /* max-width: 83%; */
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section {
+    margin-top: 5rem;
+  }
+
+
+
+
+  
+/* xs max-width: 475px */
+@media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+
+    .bottomWidgets{
+        width: 90%;
+    }
+
+    .forgotWrapper {
+        margin: 6% 10% 6% 10%;
+    }
+  
+    .forgotLeftContainer {
+      display: none;
+    }
+  
+}
+  
+  /* xs  max-width: 475px ends*/

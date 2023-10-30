@@ -1,0 +1,348 @@
+* {
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+.intro {
+    height: calc(100vh - 160px);
+    background-color: antiquewhite;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.features {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureTitle {
+    font-size: 45px;
+}
+
+.top50 {
+    margin-top: 50px;
+}
+
+.featureContainer {
+     margin-top: 150px;
+    display: flex;
+    /* height: 430px; */
+    width: 75%;
+    gap: 90px;
+    /* border: 1px solid red; */
+}
+
+.featureBox {
+    /* border: 1px solid green; */
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    -webkit-box-shadow: 0px 10px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.featureIconTitleCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureIcon {
+    width: 150px;
+    /* border: 1px solid red; */
+}
+
+.featureSpanText {
+    font-size: 45px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+}
+
+.featurePara {
+    font-size: 24px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+.featureBtn {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 55px;
+    font-size: 22px;
+    border-radius: 27.5px;
+    font-weight: 500;
+    background-color: #08C18A;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.top30 {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services {
+    height: calc(100vh + 500px);
+    /* background-color: azure; */
+}
+
+.serviceMainContainer {
+    width: 100%;
+    display: flex;
+    gap: 120px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceInfoContainer {
+    margin-top: 120px;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.serviceTitle {
+    font-size: 45px;
+    text-align: center;
+}
+
+.serviceInfoPara {
+    font-size: 30px;
+    text-align: center;
+}
+
+.serviceBoxContainer {
+    width: 88%;
+    gap: 220px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.serviceBox {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.serviceIcon {
+    width: 60px;
+}
+
+.serviceSpan {
+    font-size: 22px;
+}
+
+.servicePara {
+    font-size: 18px;
+}
+
+.serviceBtn {
+    /* margin-top: -60px !important; */
+    width: 370px;
+    height: 90px;
+    font-size: 38px;
+    border-radius: 45px;
+    font-weight: 600;
+    background-color: #08C18A;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    /* sizes */
+
+    --btn-hg: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-2xl: 1.5rem;
+    --size-xl: 1.25rem;
+    --size-base: 1rem;
+    --size-sm: 0.875rem;
+    --size-xs: 0.75rem;
+    --size-xs-1025: 0.6rem;
+}
+
+
+
+.container {
+    /* max-width: 1536px;
+    as per calculations take 83% */
+    /* max-width: 83%; */
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* xs max-width: 475px font = 12px, btn = 25px*/
+@media (max-width: 475px) {
+    .container {
+        width: 100%;
+    }
+
+
+    /* Section Feature start */
+
+
+    .featureTitle {
+        font-size: var(--size-2xl)
+    }
+
+    .top50 {
+        margin-top: 30px;
+    }
+  
+
+    .featureContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 45px;
+    }
+
+    .featureIcon {
+        width: 80px;
+    }
+
+    .featureSpanText {
+        font-size: var(--size-2xl);
+    }
+
+    .featurePara {
+        font-size: var(--size-base);
+    }
+
+    .featureBtn {
+        margin-bottom: 10px;
+        width: 130px;
+        height: 30px;
+        font-size: var(--size-sm);
+        border-radius: 15px;
+    }
+
+    .top30 {
+        margin-top: 30px;
+    }
+
+    /* Section Feature end */
+
+
+
+
+
+    /* Section Service start */
+
+    .serviceMainContainer {
+        gap: 27px;
+    }
+
+    .serviceInfoContainer {
+        width: 80%;
+        margin-top: 60px;
+        gap: 10px;
+    }
+
+
+    .serviceBoxContainer {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* border: 1px solid red; */
+    }
+
+    .serviceTitle {
+        /* font-size: 45px; */
+        font-size: var(--size-2xl);
+    }
+
+    .serviceInfoPara {
+        font-size: var(--size-base);
+    }
+
+    .serviceIcon {
+        width: 40px;
+    }
+
+    .serviceSpan {
+        font-size: var(--size-sm);
+    }
+
+    .servicePara {
+        font-size: var(--size-xs);
+    }
+
+    .serviceBtn {
+        font-weight: 500;
+        width: 150px;
+        height: 35px;
+        font-size: var(--size-xl);
+        border-radius: 17.5px;
+    }
+
+    /* Section Service end */
+
+
+}
+
+/* xs  max-width: 475px ends*/
